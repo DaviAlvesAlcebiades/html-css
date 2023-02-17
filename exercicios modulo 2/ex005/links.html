@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;
+    }
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited { color: white;}
+a:hover { color: yellow;}
+a:active {color:greenyellow}
+a::after {content: '[link]'; color: pink;
+font-weight: normal;
+text-decoration: none;
+}
+a::before{content:'link';
+color: pink;}
+.cu:hover {color:blue;}
+
+</style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+       <li> <a href="www.youtube.com" target="_blank">Repositorio GitHub </a >  </li>
+        <li> <a href="www.cu.com">Youtube</a></li>
+        <li> <a href="www.xvideos.com">Instagram</a></li>
+       <a class="davi" href="www.xvideos.com"><button class="cu">cu</button></a> 
+    </ul>
+</body>
+</html>

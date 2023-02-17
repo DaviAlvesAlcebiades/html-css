@@ -1,0 +1,9 @@
+body{background-color:gray;}
+
+#inicio {background-color: white;
+padding: 3px;}
+
+li{display: block;
+text-decoration: none;}
+
+#emcima {background-color: white;}

@@ -1,0 +1,22 @@
+.davi {background-color: greenyellow;
+margin: auto;
+width: center;
+border-radius: 20px;
+height: 400px;
+box-shadow: 10px 10px 30px green;
+padding: 10px;
+}
+.titulo {color: brown;
+text-align: center;
+text-shadow: 3px 3px 6px rgb(0, 0, 0);
+background-color: green;
+}
+
+.botao:hover {background-color: purple;}
+
+.botao {
+    width: 150px;
+    height: 150px;
+    margin: center
+;
+}

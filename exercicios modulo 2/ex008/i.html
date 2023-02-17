@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+    margin:10px;}
+        header {background-color: rgb(255, 255, 255);
+        padding:10px;
+    margin-bottom:10px;}
+main {background-color: rgb(255, 255, 255);
+padding:10px;
+margin: 0px;
+border-radius: 10px;
+box-shadow:5px 5px 5px black
+;
+margin-bottom: 10px;}
+
+footer {background-color:black;
+padding: 2px;
+color: white;
+text-align:center;
+margin:0px;}
+
+article {background-color: lightgray;
+padding:5px;}
+
+article > aside {
+    background-color: rgb(126, 119, 119);
+}
+
+nav {background-color:rgb(73, 73, 73);
+padding:3px;
+box-shadow: 1px 1px 5px black;}
+nav > a {text-decoration:none;
+color:white;
+font-weight: bold;
+margin-right:30px;}
+
+nav > a:hover {color: pink;}
+
+h1:hover{
+color: rgb(209, 0, 0);
+text-align: center;}
+
+footer > p {margin: 2px;}
+
+div#bola {
+    height:100px;
+    width:100px;
+background-color: white; 
+margin-top: 10px;
+border-radius: 100px;
+margin-left: 50%
+;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+        <nav>
+        <a href="#">Header</a>
+         <a href="#">Header</a>
+         <a href="#">Header</a>
+         <a href="#">Header</a>
+         <a href="#">Header</a>
+        </nav>
+            </header>
+    <main>
+        <section id="">main</section>
+        <section id="">
+            <article>
+                <h2>Main</h2>
+                <p>Main</p>
+                <aside>
+                    <p>Main</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+    <div id="bola">
+        
+    </div>
+
+</body>
+</html>
